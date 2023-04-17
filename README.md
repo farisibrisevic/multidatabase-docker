@@ -5,3 +5,8 @@
 <i>Profesor</i>: prof. dr. Denis Čeke
 
 <i>Asistent</i>: Adin Jahić
+
+
+Da se pokrene obična MySQL baza podataka koristiti komandu: 
+
+
