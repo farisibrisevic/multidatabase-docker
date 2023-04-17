@@ -1,5 +1,8 @@
-FROM mysql:latest
+FROM mcr.microsoft.com/mssql/server:latest
 
-ENV MYSQL_ROOT_PASSWORD=my-secret-pw
+ENV ACCEPT_EULA=Y
+ENV SA_PASSWORD=MyStrongPassword123
+
+EXPOSE 1433
 
 
