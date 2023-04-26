@@ -15,3 +15,15 @@ docker run --name my-sqlserver-container -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=MySt
 
 Nakon toga, kada je container napravljen koristiti pristupne podatke iz ```dockerfile``` i spojiti se na bazu podataka. Koristiti SSMS.
 
+Par uputa oko konekcije: 
+
+1. "sa" je default username (kako što piše u komandi iznad)
+2. Ako ne može localhost, ukucati localhost,<port>
+3. Promijeniti šifru po svojim potrebama, ne mora striktno biti ova. 
+
+Da se promijeni ime container-a koristiti komandu 
+
+```
+docker rename <staro ime> <novo ime>
+```
+
