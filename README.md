@@ -4,7 +4,7 @@
 
 <i>Profesor</i>: prof. dr. Denis Čeke
 
-<i>Asistent</i>: Adin Jahić
+<i>Asistent</i>: Adin Jahić, Narcisa Hadžajlić
 <hr>
 
 <h3> MSSQL docker container </h3>
