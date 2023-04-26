@@ -6,7 +6,8 @@
 
 <i>Asistent</i>: Adin Jahić, Narcisa Hadžajlić
 <hr>
-
+<p> <i>Fajlovi iznad (dockerfile i docker-compose.yaml) trenutno nisu mjerodavni i pouzdani, radi mijenjanja i shvatanja gradiva. Zasad, ne koristiti ih. </i></p>
+<hr>
 <h3> MSSQL docker container </h3>
 
 Da se pokrene obična MSSQL baza podataka koristiti komandu: 
