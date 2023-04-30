@@ -19,7 +19,7 @@ docker run --name my-sqlserver-container -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=MySt
 Par uputa oko konekcije (u SSMS-u): 
 
 1. "sa" je default username (kako što piše u komandi iznad)
-2. Ako ne može localhost, ukucati localhost,<port>
+2. Ako ne može localhost, ukucati localhost, [ broj porta ]
 3. Promijeniti šifru po svojim potrebama, ne mora striktno biti ova. 
 
 Da se promijeni ime container-a koristiti komandu 
@@ -44,3 +44,6 @@ docker rename <staro ime> <novo ime>
   ```
   
   Za spajanje koristiti pgAdmin te unijeti odgovarajuće podatke (sličan princip kao iznad, samo drugi DBMS).
+  
+  <hr>
+  Kao što se da vidjeti, princip je sličan za pokretanje svakog od kontejnera za svaku od baza podataka. Mijenjaju se samo portovi.
