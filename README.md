@@ -34,4 +34,13 @@ docker rename <staro ime> <novo ime>
   docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin123! -d mysql
   ```
   
-  Za spajanje koristiti MySQL Workbench te unijeti odgovarajuće podatke (sličan princip kao iznad, samo drugi DBMS). 
+  Za spajanje koristiti MySQL Workbench te unijeti odgovarajuće podatke (sličan princip kao iznad, samo drugi DBMS).
+  
+  
+  <h3>Pokretanje postgres docker container-a </h3>
+  
+  ```
+  docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=admin123! -d postgres
+  ```
+  
+  Za spajanje koristiti pgAdmin te unijeti odgovarajuće podatke (sličan princip kao iznad, samo drugi DBMS).
