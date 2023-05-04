@@ -50,6 +50,7 @@ docker rename <staro ime> <novo ime>
   
   Ostala procedura i detaljnija objašnjenja su unutar "dokumentacija.docx" fajla :)
 <br>
+
 Docker-compose se pokreće komandom :
 
 ``` 
