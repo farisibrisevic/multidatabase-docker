@@ -47,3 +47,5 @@ docker rename <staro ime> <novo ime>
   
   <hr>
   Kao što se da vidjeti, princip je sličan za pokretanje svakog od kontejnera za svaku od baza podataka. Mijenjaju se samo portovi.
+  
+  Ostala procedura i detaljnija objašnjenja su unutar "dokumentacija.docx" fajla :)
