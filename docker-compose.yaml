@@ -1,29 +1,30 @@
-version: '3.7'
+version: '3.9'
 
 services:
-  mysql:
-    image: mysql:latest
-    restart: always
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: mssql-1
     environment:
-      MYSQL_DATABASE: mydb
-      MYSQL_USER: myuser
-      MYSQL_PASSWORD: mypassword
-      MYSQL_ROOT_PASSWORD: myrootpassword
-    volumes:
-      - ./mysql-data:/var/lib/mysql
+      SA_PASSWORD: MyStrongPassword123
+      ACCEPT_EULA: Y
+    ports:
+      - "1433:1433"
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-compose
+    environment:
+      MYSQL_ROOT_PASSWORD: admin123!
+      MYSQL_DATABASE: mydatabase
+    ports:
+      - "3306:3306"
 
   postgres:
-    image: postgres:latest
-    restart: always
+    image: postgres:13
+    container_name: postgres-1
     environment:
-      POSTGRES_DB: mydb
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-    volumes:
-      - ./postgres-data:/var/lib/postgresql/data
-
-  sqlite:
-    image: jitesoft/sqlite:latest
-    restart: always
-    volumes:
-      - ./sqlite-data:/data
+      POSTGRES_PASSWORD: admin123!
+      POSTGRES_USER: postgres
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"
