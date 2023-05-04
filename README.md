@@ -6,7 +6,7 @@
 
 <i>Asistent</i>: Adin Jahić, Narcisa Hadžajlić
 <hr>
-<p> <i>Fajlovi iznad (dockerfile i docker-compose.yaml) trenutno nisu mjerodavni i pouzdani, radi mijenjanja i shvatanja gradiva. Zasad, ne koristiti ih. </i></p>
+<p> <i>Fajl docker-compose.yaml je prerađen i trenutno je validan fajl.</i></p>
 <hr>
 <h3> MSSQL docker container </h3>
 
