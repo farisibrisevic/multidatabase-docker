@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/mssql/server:2019-latest
 
 ENV ACCEPT_EULA=Y
-ENV SA_PASSWORD=MySecurePassword123
+ENV SA_PASSWORD=admin123!
 
 COPY setup.sql /var/opt/mssql/init/setup.sql
 
