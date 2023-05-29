@@ -8,7 +8,6 @@
 <hr>
 <p> <i>Fajl docker-compose.yaml je prerađen i trenutno je validan fajl.</i></p>
 
-<p><i>dockerfile je napisan za MSSQL bazu podataka </i></p>
 <hr>
 <h3> MSSQL docker container </h3>
 
